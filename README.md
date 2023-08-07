@@ -1,5 +1,5 @@
 # DynexSDK
-Dynex is the world’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm, a Proof-of-Useful-Work (PoUW) approach to solving real-world problems. The Dynex SDK is used to interact and compute on the Dynex Platform. All examples require the DynexSDK for Python as well as a valid API key. Thes repositoriy is continously updated, come back to check on updates.
+Dynex is the world’s first neuromorphic supercomputing blockchain based on the DynexSolve chip algorithm, a Proof-of-Useful-Work (PoUW) approach to solving real-world problems. The Dynex SDK is used to interact and compute on the Dynex Platform. All examples require the DynexSDK for Python as well as a valid API key. This repository is continuously updated, come back to check on updates.
 
 Dynex SDK documentation:
 - [Dynex SDK Wiki](https://github.com/dynexcoin/DynexSDK/wiki)
@@ -28,7 +28,7 @@ Here are some advanced code examples and notebooks to be used to compute them on
 
 ## Machine Learning Examples
 
-Quantum computing algorithms for machine learning harness the power of quantum mechanics to enhance various aspects of machine learning tasks. As both, quantum computing and neuromorphic computing are sharing similar features, these algorithms can also be computed efficiently on the Dynex platform – but without the limitations of limited qubits, error correction or availability:
+Quantum computing algorithms for machine learning harness the power of quantum mechanics to enhance various aspects of machine learning tasks. As both, quantum computing and neuromorphic computing are sharing similar features, these algorithms can also be computed efficiently on the Dynex platform – but without the limitations of limited qubits, error correction, or availability:
 
 **Quantum Support Vector Machine (QSVM):** QSVM is a quantum-inspired algorithm that aims to classify data using a quantum kernel function. It leverages the concept of quantum superposition and quantum feature mapping to potentially provide computational advantages over classical SVM algorithms in certain scenarios. 
 
@@ -36,13 +36,13 @@ Quantum computing algorithms for machine learning harness the power of quantum m
   
 **Quantum Neural Networks (QNN):** QNNs are quantum counterparts of classical neural networks. They leverage quantum principles, such as quantum superposition and entanglement, to process and manipulate data. QNNs hold the potential to learn complex patterns and perform tasks like classification and regression, benefiting from quantum parallelism.
 
-**Quantum K-Means Clustering:** Quantum K-means is a quantum-inspired variant of the classical K-means clustering algorithm. It uses quantum algorithms to accelerate the clustering process by exploring multiple solutions simultaneously. Quantum K-means has the potential to speed up clustering tasks for large-scale datasets. 
+**Quantum K-Means Clustering:** Quantum K-means is a quantum-inspired variant of the classical K-means clustering algorithm. It uses quantum algorithms to accelerate the clustering process by exploring multiple solutions simultaneously. Quantum K-means have the potential to speed up clustering tasks for large-scale datasets. 
 
-**Quantum Boltzmann Machines (QBMs):** QBMs are quantum analogues of classical Boltzmann Machines, which are generative models used for unsupervised learning. QBMs employ quantum annealing to sample from a probability distribution and learn patterns and structures in the data.
+**Quantum Boltzmann Machines (QBMs):** QBMs are quantum analogs of classical Boltzmann Machines, which are generative models used for unsupervised learning. QBMs employ quantum annealing to sample from a probability distribution and learn patterns and structures in the data.
 
 **Quantum Support Vector Regression (QSVR):** QSVR extends the concept of QSVM to regression tasks. It uses quantum computing techniques to perform regression analysis, potentially offering advantages in terms of efficiency and accuracy over classical regression algorithms.
 
-Here are some example of these algorithms implemented on the Dynex Platform:
+Here are some examples of these algorithms implemented on the Dynex Platform:
 
 - [Example: Quantum-Support-Vector-Machine Implementation on Dynex](https://github.com/dynexcoin/DynexSDK/blob/main/example_support_vector_machine.ipynb)
 - [Example: Quantum-Boltzmann-Machine Implementation on Dynex](https://github.com/dynexcoin/DynexSDK/blob/main/example_quantum_boltzmann_machine_QBM.ipynb)
@@ -74,7 +74,7 @@ Dimod is a shared API for samplers. It provides classes for quadratic models—s
 [Dimod documentation](https://docs.ocean.dwavesys.com/en/stable/docs_dimod/)
 
 ## PyQUBO: QUBOs or Ising Models from Flexible Mathematical Expressions
-PyQUBO allows you to create QUBOs or Ising models from flexible mathematical expressions easily. It is Python based (C++ backend), fully integrated with Ocean SDK, supports automatic validation of constraints and features placeholder for parameter tuning.
+PyQUBO allows you to create QUBOs or Ising models from flexible mathematical expressions easily. It is Python based (C++ backend), fully integrated with Ocean SDK, and supports automatic validation of constraints and features placeholder for parameter tuning.
 
 [PyQUBO documentation](https://pyqubo.readthedocs.io/)
 
@@ -88,4 +88,4 @@ PyQUBO allows you to create QUBOs or Ising models from flexible mathematical exp
 
 ## License
 
-Released under the Apache License 2.0. See LICENSE file.
+Released under the Apache License 2.0. See the LICENSE file.
